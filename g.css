@@ -1,0 +1,11 @@
+@media screen and(max-width:500px){
+    
+}
+body{
+    background-color: blue;
+    color: white;
+}
+img{
+    margin:85px 35px 80px 450px;
+    filter:drop-shadow(10px 10px 450pxrgb(255,00))
+}

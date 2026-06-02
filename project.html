@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant</title>
+
+    <style >
+       
+        html { scroll-behavior: smooth; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+
+        
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #ff6347;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .navbar a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .navbar a:hover { text-decoration: underline; }
+
+        
+        .navbar-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffe5d9;
+            padding: 15px;
+            gap: 20px;
+        }
+        .navbar-content img {
+            width: 200px;
+            border-radius: 150px;
+        }
+        
+
+       
+        .home {
+            text-align: center;
+            padding: 50px;
+            background-color: #fff3e0;
+        }
+        .home img {
+            width: 80%;
+            border-radius: 10px;
+        }
+        .home p {
+            margin-top: 20px;
+            font-style: italic;
+            color: #ff6347;
+        }
+
+
+        .about {
+            padding: 40px;
+            background-color: #fff8f0;
+            text-align: center;
+        }
+
+
+        .menu {
+            padding: 10px;
+            background-color: #fff3e0;
+            text-align: center;
+        }
+        .menu table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 10%;
+        }
+        .menu th, .menu td {
+            border: 1px solid #ff6347;
+            padding: 10px;
+        }
+        .menu th {
+            background-color: #ff6347;
+            color: white;
+        }
+
+
+        .marquee {
+            padding: 20px;
+            background-color: #fff8f0;
+            color: #ff6347;
+            font-weight: bold;
+        }
+
+       
+        .contact {
+            padding: 40px;
+            background-color: #fff3e0;
+            text-align: center;
+        }
+        .contact input, .contact textarea {
+            margin: 5px;
+            padding: 10px;
+            width: 50%;
+        }
+        .contact button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover { opacity: 0.8; }
+
+
+        .location {
+            padding: 40px;
+            text-align: center;
+            background-color: #fff8f0;
+        }
+        .location iframe {
+            border: 2px solid #ff6347;
+            border-radius: 10px;
+            width: 80%;
+            height: 400px;
+        }
+        
+        .map-marquee {
+            padding: 15px;
+            background-color: #ffe5d9;
+            color: #ff6347;
+            font-style: italic;
+            font-weight: bold;
+        }
+       
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+   
+    <nav class="navbar">
+        <a href="#home">Home </a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#location">Location</a>
+    </nav>
+
+
+
+   
+    <section id="home" class="home">
+        <h2>Welcome to Delicious Bites</h2>
+        <img src="Interior.png" alt="Restaurant Image">
+        <p>"Delicious bites, happy hearts!"</p>
+    </section>
+
+
+<div id="about" style="padding:80px; text-align:center; background-color:#e9e4e2; margin-top:100px;">
+  <h1>About Us</h1>
+  <img src="restaurant-interior.jpg" alt="Restaurant Interior" width="500" height="300" style="border-radius:20px;">
+  <p style="font-size:18px; margin-top:20px; line-height:1.6;">
+    At Delicious Bites, we serve love on a plate. From traditional dishes to modern fusion, our chefs prepare every meal with passion.
+  </p>
+
+  
+</div>
+
+
+    <div id="menu">
+    <center><h1>Our Special Dishes</h1></center>
+    <div class="menu-items">
+      <div class="menu-card">
+        
+        <h3 style=" margin-left: 270px;">Pizza</h3>
+        <img src="pizza.png" alt="Pizza"alt="Pizza" width="200" height="150" style="border-radius:10px; margin-left: 200px;">
+        <p  style=" margin-left: 180px;">Cheesy delight with fresh toppings.</p>
+        
+      </div>
+      <div class="menu-card">
+        <h3  style=" margin-left: 550px; margin-top: -240px;">Burger</h3>
+        <img src="burger.png" alt="Burger" alt="Pizza" width="200" height="150" style="border-radius:10px; margin-left: 490px;">
+        <p  style=" margin-left: 480px;">Juicy and crispy layers of taste.</p>
+      </div>
+      <div class="menu-card">
+        <h3  style=" margin-left: 850px; margin-top: -240px;">Pasta</h3>
+        <img src="pasta.png" alt="Pasta" alt="Pizza" width="200" height="150" style="border-radius:10px; margin-left: 790px;">
+        <p style=" margin-left: 790px;" >Italian twist with rich flavors.</p>
+      </div>
+      <div class="menu-card">
+        <h3 style=" margin-left: 1130px; margin-top: -240px;">French fries</h3>
+        <img src="frenchfries.png" alt="Burger" alt="Pizza" width="200" height="150" style="border-radius:10px; margin-left: 1090px;">
+        <p style=" margin-left: 1030px;">Crispy golden fries that melts in your mouth.</p>
+      </div>
+    </div>
+  </div>
+  
+<div id="table" style="padding:80px; text-align:center; background-color:#ffe5d9;">
+  <h1>Price Table</h1>
+  <table border="2" style="border-collapse:collapse; width:70%; margin:auto; background-color: #fff;">
+    <tr style="background-color: rgb(206, 103, 103);">
+      <th>Item ID</th><th>Dish Name</th><th>Category</th><th>Price (₹)</th>
+    </tr>
+    <tr style="background-color: #ebbdbd;">
+      <td>R001</td><td>Pizza</td><td>Main Course</td><td>299</td>
+    </tr>
+    <tr style="background-color: #ebbfbf;">
+      <td>R002</td><td>Burger</td><td>Snacks</td><td>149</td>
+    </tr>
+    <tr style="background-color: #ebbfbf;">
+      <td>R003</td><td>Pasta</td><td>Main Course</td><td>199</td>
+    </tr>
+    <tr style="background-color: #ebbfbf;">
+      <td>R004</td><td>French Fries</td><td>Snacks</td><td>99</td>
+    </tr>
+  </table>
+</div>
+
+   
+    <div class="marquee">
+        <marquee behavior="scroll" direction="left">
+            Today's Special: Try our new Spicy Veg Pizza only for ₹220! Hurry, limited time offer!
+        </marquee>
+    </div>
+
+    
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        
+        <form  action="pasta.png">
+            <label>Name: </label>
+            <input type="text" placeholder="Your Name" required><br>
+            <label>Email:</label>
+            <input type="email" placeholder="Your Email" required><br>
+            <label style="margin-left: -29px;" >Message:</label>
+            <input type="text" placeholder="Enter Message" style="width: 710px; height: 100px;"><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    
+    <section id="location" class="location">
+        <h2>Our Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.3702650940877!2d78.13014391033023!3d11.668150042066117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf15bc3c77f21%3A0xbd2551badf759a4b!2sLivewire%20-%20For%20Live%20Careers%20-%20Software%20Training%20institute%20in%20Salem%20%7C%20AI%20%7C%20Ethical%20Hacking%20%7C%20Full%20stack%20%7C%20Python%20%7C%20Java!5e0!3m2!1sen!2sin!4v1761653856863!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="map-marquee">
+            <marquee behavior="scroll" direction="left">
+                Visit us at Chennai! Enjoy amazing food & cozy ambiance! 🍴
+            </marquee>
+        </div>
+    </section>
+
+</body>
+</html>
